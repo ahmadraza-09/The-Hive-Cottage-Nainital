@@ -12,29 +12,25 @@ const SuperDeluxeRoomPage = () => {
     return (
         <>
             <Helmet>
-                <title>Super Deluxe Room with Jacuzzi Tub - The Pearl 21 Villa, Udaipur</title>
-                <meta name="description" content="Relax and unwind in the Super Deluxe Room with Jacuzzi Tub at The Pearl 21 Villa, Udaipur. Enjoy a luxurious stay with private amenities, including a jacuzzi, for a truly indulgent experience." />
-                <meta name="keywords" content="Super Deluxe Room with Jacuzzi Tub, The Pearl 21 Villa Udaipur, luxury room with jacuzzi, jacuzzi villa Udaipur, exclusive rooms with jacuzzi, Udaipur luxury rooms, premium accommodations with jacuzzi, luxury spa experience Udaipur" />
-                <link rel="canonical" href="https://thepearl21villa.com/super-deluxe-room-with-jacuzzi-tub" />
+                <title>Super Deluxe Room - The Hive Cottage Nainital | Premium Luxury Accommodation</title>
+                <meta name="description" content="Indulge in the opulence of our Super Deluxe Room at The Hive Cottage, Nainital. With lavish interiors, modern amenities, and stunning views, this room provides a perfect blend of comfort and luxury for an unforgettable stay." />
+                <meta name="keywords" content="Super Deluxe Room The Hive Cottage Nainital, luxury room Nainital, premium accommodation Nainital, Nainital super deluxe rooms, best deluxe rooms Nainital, The Hive Cottage super deluxe room, luxury stay Nainital" />
+                <link rel="canonical" href="https://www.thehivecottagenainital.com/super-deluxe-room" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "HotelRoom",
-                        "name": "Super Deluxe Room with Jacuzzi Tub",
-                        "telephone": "+91-9971834141",
-                        "url": "https://thepearl21villa.com/super-deluxe-room-with-jacuzzi-tub",
-                        "roomType": "Super Deluxe Room with Jacuzzi Tub",
-                        "hotel": {
-                            "@type": "Hotel",
-                            "name": "The Pearl 21 Villa",
-                            "telephone": "+91-9971834141",
-                            "url": "https://thepearl21villa.com"
-                        }
+                        "name": "Super Deluxe Room - The Hive Cottage Nainital",
+                        "description": "Experience the best of luxury and comfort in the Super Deluxe Room at The Hive Cottage Nainital, with spacious interiors, premium amenities, and breathtaking views.",
+                        "hotelRoomType": "Super Deluxe Room",
+                        "url": "https://www.thehivecottagenainital.com/super-deluxe-room",
+                        "telephone": "+91-8743000181",
                     })}
                 </script>
             </Helmet>
+
 
 
             {<TopBanner />}

@@ -19,12 +19,20 @@ import image1 from "../assets/rooms/super-deluxe-room/1.jpg";
 import image2 from "../assets/rooms/super-deluxe-room/2.jpg";
 import image3 from "../assets/rooms/super-deluxe-room/3.jpg";
 import image4 from "../assets/rooms/super-deluxe-room/4.jpg";
+import image5 from "../assets/rooms/super-deluxe-room/5.jpg";
+import image6 from "../assets/rooms/super-deluxe-room/6.jpg";
 
-import icon1 from "../assets/icons/double-bed.png";
-import icon2 from "../assets/icons/wi-fi.png";
-import icon3 from "../assets/icons/laundry-machine.png";
-import icon4 from "../assets/icons/tv-monitor.png";
-import icon5 from "../assets/icons/parked-car.png";
+import DoubleBed from "../assets/icons/double-bed.png";
+import FreshWater from "../assets/icons/water.png"
+import Tv from "../assets/icons/smart-tv.png"
+import Newspaper from "../assets/icons/newspaper.png"
+import RoomHeater from "../assets/icons/room-heater.png"
+import Bathroom from "../assets/icons/bathroom.png"
+import Internet from "../assets/icons/wifi-router.png"
+import Slippers from "../assets/icons/slippers.png"
+import HouseKeeping from "../assets/icons/vacuum-cleaner.png";
+import AirConditioner from "../assets/icons/air-conditioner.png";
+import Toothbrush from "../assets/icons/toothbrush.png"
 
 const SuperDeluxeRoom = () => {
   const navigate = useNavigate();
@@ -73,39 +81,80 @@ const SuperDeluxeRoom = () => {
               <img src={image4} alt="" />
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className="slider-card-testimonial testimonial-content why-choose-slider-image">
+              <img src={image5} alt="" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="slider-card-testimonial testimonial-content why-choose-slider-image">
+              <img src={image6} alt="" />
+            </div>
+          </SwiperSlide>
         </Swiper>
       </div>
       <div className="why-choose-contents room-services">
         <h2>Room Services</h2>
         <div className="flex">
           <div className="why-choose-contents-box">
-            <img src={icon1} alt="" />
+            <img src={DoubleBed} alt="" />
             <h2>Double Bed</h2>
           </div>
           <div className="why-choose-contents-box">
-            <img src={icon2} alt="" />
-            <h2>Free Wifi</h2>
+            <img src={Internet} alt="" />
+            <h2>Internet Access</h2>
           </div>
           <div className="why-choose-contents-box">
-            <img src={icon3} alt="" />
-            <h2>Laundry Service</h2>
+            <img src={FreshWater} alt="" />
+            <h2>Desk, H/C Water</h2>
           </div>
           <div className="why-choose-contents-box">
-            <img src={icon4} alt="" />
-            <h2>LCD TV</h2>
+            <img src={Tv} alt="" />
+            <h2>Cable/Satellite TV</h2>
           </div>
           <div className="why-choose-contents-box">
-            <img src={icon5} alt="" />
-            <h2>Parking</h2>
+            <img src={HouseKeeping} alt="" />
+            <h2>House Keeping</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={Newspaper} alt="" />
+            <h2>Complimentary Newspaper</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={RoomHeater} alt="" />
+            <h2>Room Heater</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={Bathroom} alt="" />
+            <h2>Attached Bathroom</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={Slippers} alt="" />
+            <h2>Slippers</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={Toothbrush} alt="" />
+            <h2>Toothbrush On Request</h2>
+          </div>
+          <div className="why-choose-contents-box">
+            <img src={AirConditioner} alt="" />
+            <h2>Air Conditioner</h2>
           </div>
         </div>
       </div>
       <div className="premium-room-comp-content room-card-price-left ">
         <h2>SUPER DELUXE ROOM</h2>
         <br />
+        <h4>Off-Season Price</h4>
         <h2>
-          Rs. 4670 <span>/ Night</span>
+          Rs. 6000 <span>/ Night +GST With Breakfast</span>
         </h2>
+        <br />
+        <h4>Season Price</h4>
+        <h2>
+          Rs. 7500 <span>/ Night +GST With Breakfast <p>Extra Person 1400 with Breakfast</p></span>
+        </h2>
+        
         
         <p>
         The Super Deluxe Room offers a perfect blend of elegance and comfort. With stylish interiors, modern amenities, and a cozy ambiance, it is designed for a luxurious and relaxing stay. Ideal for guests seeking sophistication and convenience.

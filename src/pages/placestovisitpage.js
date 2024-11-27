@@ -10,22 +10,23 @@ const PlacesToVisitPage = () => {
     return (
         <>
             <Helmet>
-                <title>Places to Visit Near The Pearl 21 Villa - Explore Udaipur's Best Attractions</title>
-                <meta name="description" content="Discover the top attractions near The Pearl 21 Villa in Udaipur, including Udai Sagar Lake, Swaroop Sagar Lake, Sajjangarh Biological Park, Monsoon Palace, Badi Lake, Lake Pichola, Jagdish Temple, Fateh Sagar Lake, Doodh Talai Lake, City Palace, and Bagore Ki Haveli." />
-                <meta name="keywords" content="places to visit near The Pearl 21 Villa, Udai Sagar Lake, Swaroop Sagar Lake, Sajjangarh Biological Park, Monsoon Palace, Badi Lake, Lake Pichola, Jagdish Temple, Fateh Sagar Lake, Doodh Talai Lake, City Palace, Bagore Ki Haveli, Udaipur attractions, City of Lakes sightseeing, tourist spots near The Pearl 21 Villa, Udaipur travel guide" />
-                <link rel="canonical" href="https://thepearl21villa.com/places-to-visit" />
+    <title>Places to Visit Near The Hive Cottage Nainital - Eco Cave Park, Naina Devi Temple, Mall Road & Raj Bhawan</title>
+    <meta name="description" content="Discover the best places to visit in Nainital. Explore popular attractions like Eco Cave Park, Naina Devi Temple, Mall Road, Raj Bhawan, Snow View Point, Tiffin Top, Naini Lake, The Mall Road, and more. Visit Nainital’s top tourist spots and enjoy scenic beauty, culture, and history near The Hive Cottage." />
+<meta name="keywords" content="places to visit in Nainital, Eco Cave Park Nainital, Naina Devi Temple, Mall Road Nainital, Raj Bhawan Nainital, Snow View Point, Tiffin Top, Naini Lake, Nainital tourist attractions, best sightseeing spots in Nainital, Nainital travel guide, famous places in Nainital, Nainital top destinations, best tourist spots Nainital, Nainital tourism" />
+    <link rel="canonical" href="https://www.thehivecottagenainital.com/places-to-visit" />
 
-                {/* JSON-LD structured data */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Hotel",
-                        "name": "Places to Visit Near The Pearl 21 Villa - Explore Udaipur's Best Attractions",
-                        "telephone": "+91-9971834141",
-                        "url": "https://thepearl21villa.com/places-to-visit"
-                    })}
-                </script>
-            </Helmet>
+    {/* JSON-LD structured data */}
+    <script type="application/ld+json">
+        {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Hotel",
+            "name": "The Hive Cottage Nainital",
+            "telephone": "+91-8743000181",
+            "url": "https://www.thehivecottagenainital.com/places-to-visit"
+        })}
+    </script>
+</Helmet>
+
             <TopBanner />
             <Navbar />
             <PlacesToVisit />

@@ -154,7 +154,7 @@ const OurGallery = () => {
     <>
     <div className="our-gallery-section">
       <h1 className="swipe">Our Gallery</h1>
-      <h4 className="swipe">Explore The Resort</h4>
+      <h4 className="swipe">Explore The Cottage</h4>
       <div className="our-gallery-wrapper">
         {imageList.map((image, index) => (
           <div
@@ -173,7 +173,7 @@ const OurGallery = () => {
           <span className="close-btn" onClick={closeImage}>
             <i className="fa-solid fa-xmark"></i>
           </span>
-          <img src={selectedImage} alt="Popup" onLoad={<Skeleton variant='rounded' width={250} height={150}/>}/>
+          <img src={selectedImage} alt="Popup" />
         </div>
       )}
     </div>

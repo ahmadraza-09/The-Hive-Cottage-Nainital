@@ -52,8 +52,20 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .career-banner>h2{
-        font-size: 30px;
+    .privacy-policy-content h2 {
+        font-size: 25px;
+    }
+
+    .privacy-policy-introduction h2 {
+        font-size: 18px;
+    }
+
+    .privacy-policy-content p {
+        font-size: 14px;
+    }
+
+    .privacy-policy-introduction ol li{
+        font-size: 14px;
     }
 
     .privacy-policy-content {

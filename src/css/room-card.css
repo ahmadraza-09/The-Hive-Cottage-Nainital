@@ -85,4 +85,19 @@
         width: 100%;
         height: fit-content;
     }
+    
+    .room-card-content {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .room-card-price-right button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .room-card-price {
+        font-size: 14px;
+        padding: 10px;
+    }
 }

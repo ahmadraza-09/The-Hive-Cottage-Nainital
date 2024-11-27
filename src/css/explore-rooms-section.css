@@ -82,8 +82,22 @@
         gap: 20px;
     }
 
+    .explore-rooms-header-left h2 {
+        font-size: 25px;
+    }
+
+    .explore-rooms-header-right button {
+        font-size: 14px;
+        padding: 5px 10px;
+        font-weight: 500;
+    }
+
     .explore-rooms-cards {
         padding: 30px 0px;
+    }
+
+    .explore-rooms-cards {
+        
     }
 
     .explore-rooms-section {

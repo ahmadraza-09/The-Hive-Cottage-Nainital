@@ -22,7 +22,7 @@ const SkeletonHero = () => {
             justifyContent: "center",
           }}
         >
-          Image is Loading...
+          Video is Loading...
         </Skeleton>
         <Skeleton
           variant="rectangular"

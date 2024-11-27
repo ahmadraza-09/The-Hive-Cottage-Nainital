@@ -135,17 +135,18 @@ const Footer = () => {
             <h4>get help</h4>
             <span
               onClick={() => {
-                navigate("/faq");
-              }}
-            >
-              FAQ
-            </span>
-            <span
-              onClick={() => {
                 navigate("/contact");
               }}
             >
+              
               Contact
+            </span>
+            <span
+              onClick={() => {
+                navigate("/how-to-reach");
+              }}
+            >
+              How To Reach
             </span>
             <span
               onClick={() => {
@@ -221,8 +222,8 @@ const Footer = () => {
 
           <div className="footer-copyright-right">
             All Rights Reserved -{" "}
-            <a href="https://www.thepearl21villa.com/" target="_blank">
-              The Pearl 21 Villa
+            <a href="https://www.thehivecottagenainital.com/" target="_blank">
+              The Hive Cottage Nainital
             </a>{" "}
             © 2024
           </div>

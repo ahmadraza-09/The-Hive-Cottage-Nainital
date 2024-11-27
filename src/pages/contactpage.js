@@ -10,22 +10,23 @@ const ContactPage = () => {
     return (
         <>
             <Helmet>
-                <title>Contact Us - The Pearl 21 Villa in Udaipur</title>
-                <meta name="description" content="Get in touch with The Pearl 21 Villa in Udaipur. For inquiries, bookings, or more information, reach out to us via phone, email, or our contact form." />
-                <meta name="keywords" content="contact The Pearl 21 Villa, Udaipur hotel contact, contact information Udaipur, villa bookings Udaipur, The Pearl 21 Villa inquiries, contact form Udaipur, luxury villa contact, The Pearl 21 Villa phone, email for villa bookings" />
-                <link rel="canonical" href="https://thepearl21villa.com/contact" />
+                <title>Contact Us - The Hive Cottage Nainital</title>
+                <meta name="description" content="Get in touch with The Hive Cottage Nainital for inquiries, bookings, or any questions. Our team is here to help you with your stay in the beautiful Nainital." />
+                <meta name="keywords" content="contact Hive Cottage Nainital, Nainital hotel contact, get in touch with Hive Cottage, Hive Cottage Nainital booking, customer support Hive Cottage Nainital, hotel inquiries Nainital" />
+                <link rel="canonical" href="https://www.thehivecottagenainital.com/contact" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Hotel",
-                        "name": "Contact Us - The Pearl 21 Villa in Udaipur",
-                        "telephone": "+91-9971834141",
-                        "url": "https://thepearl21villa.com/contact"
+                        "name": "The Hive Cottage Nainital",
+                        "telephone": "+91-8743000181",
+                        "url": "https://www.thehivecottagenainital.com/contact"
                     })}
                 </script>
             </Helmet>
+
 
             <TopBanner />
             <Navbar />

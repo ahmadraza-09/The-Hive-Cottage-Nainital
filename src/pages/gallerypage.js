@@ -10,22 +10,23 @@ const GalleryPage = () => {
     return (
         <>
             <Helmet>
-                <title>Gallery - The Pearl 21 Villa in Udaipur</title>
-                <meta name="description" content="Explore the photo gallery of The Pearl 21 Villa in Udaipur. View stunning images of our luxurious accommodations, beautiful surroundings, and serene atmosphere in the City of Lakes." />
-                <meta name="keywords" content="The Pearl 21 Villa gallery, villa photos Udaipur, luxury accommodations Udaipur, The Pearl 21 Villa images, Udaipur villa gallery, luxury stays Udaipur, City of Lakes villa pictures, The Pearl Villa Udaipur gallery" />
-                <link rel="canonical" href="https://thepearl21villa.com/gallery" />
+                <title>Gallery - The Hive Cottage Nainital</title>
+                <meta name="description" content="Explore the beautiful gallery of The Hive Cottage Nainital. View stunning images of the property, surroundings, rooms, and scenic views of Nainital." />
+                <meta name="keywords" content="Hive Cottage Nainital gallery, Nainital hotel images, cottage rooms Nainital, Nainital scenic views, The Hive Cottage photos, Nainital hotel rooms, Nainital tourism gallery" />
+                <link rel="canonical" href="https://www.thehivecottagenainital.com/gallery" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Hotel",
-                        "name": "Gallery - The Pearl 21 Villa in Udaipur<",
-                        "telephone": "+91-9971834141",
-                        "url": "https://thepearl21villa.com/gallery"
+                        "name": "The Hive Cottage Nainital",
+                        "telephone": "+91-8743000181",
+                        "url": "https://www.thehivecottagenainital.com/gallery"
                     })}
                 </script>
             </Helmet>
+
 
 
 

@@ -12,6 +12,7 @@ import CancellationPolicyPage from './pages/cancellationpolicypage';
 import PlacesToVisitPage from './pages/placestovisitpage'
 import FamilySuitePage from './pages/family-suite-page';
 import SuperDeluxeRoomPage from './pages/super-deluxe-room-page';
+import HowToReachPage from './pages/howtoreachpage';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           <Route path='/places-to-visit' element={<PlacesToVisitPage />} />
           <Route path="/family-suite" element={<FamilySuitePage />} />
           <Route path="/super-deluxe-room" element={<SuperDeluxeRoomPage />} />
+          <Route path="/how-to-reach" element={<HowToReachPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

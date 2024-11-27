@@ -11,28 +11,23 @@ const AboutPage = () => {
     return (
         <>
             <Helmet>
-                <title>About - The Pearl 21 Villa</title>
-                <meta
-                    name="description"
-                    content="Learn about The Pearl 21 Villa in Udaipur, a luxurious retreat offering exceptional hospitality, elegant accommodations, and personalized services in the City of Lakes."
-                />
-                <meta
-                    name="keywords"
-                    content="About The Pearl 21 Villa, luxury villas in Udaipur, about us, villa hospitality Udaipur, elegant accommodations, personalized villa services, The Pearl Villa Udaipur, villa experience in Udaipur"
-                />
-                <link rel="canonical" href="https://thepearl21villa.com/about" />
+                <title>About The Hive Cottage - Luxury Heritage Stay in Nainital</title>
+                <meta name="description" content="Discover the story behind The Hive Cottage, a luxury heritage property in Nainital. Learn about our commitment to exceptional hospitality, stunning surroundings, and creating an unforgettable retreat experience in the hills." />
+                <meta name="keywords" content="About The Hive Cottage, heritage hotel Nainital, luxury stay Nainital, boutique accommodation Nainital, Nainital history, peaceful retreat Nainital, The Hive Cottage heritage" />
+                <link rel="canonical" href="https://www.thehivecottagenainital.com/about" />
 
                 {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Hotel",
-                        name: "About - The Pearl 21 Villa",
-                        telephone: "+91-9971834141",
-                        url: "https://thepearl21villa.com/about",
+                        "name": "The Hive Cottage Nainital",
+                        "telephone": "+91-8743000181",
+                        "url": "https://www.thehivecottagenainital.com/about"
                     })}
                 </script>
             </Helmet>
+
 
             <TopBanner />
             <Navbar />

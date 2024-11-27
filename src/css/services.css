@@ -23,6 +23,10 @@
     border-top: 1.5px solid #ccc;
 }
 
+.services-container h2 {
+    text-transform: uppercase;
+}
+
 .services-boxes {
     max-width: 800px;
     display: flex;
@@ -82,12 +86,13 @@
     }
 
     .services-section>h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .services-container>h2,
     .services-container2>h2 {
         font-size: 25px;
+        text-transform: uppercase;
     }
 
     .service-box {

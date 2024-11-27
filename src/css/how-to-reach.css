@@ -1,0 +1,50 @@
+.how-to-reach-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how-to-reach-section h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.how-to-reach-section p {
+    font-size: 16px;
+}
+
+.how-to-reach-section h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.iframe-us-down {
+    width: 100%;
+    height: 400px;
+}
+
+.iframe-us-down iframe {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .how-to-reach-section h1 {
+        font-size: 20px;
+    }
+
+    .how-to-reach-section {
+        padding: 20px 10px;
+    }
+
+    .how-to-reach-section p {
+        font-size: 14px;
+    }
+
+    .iframe-us-down {
+        height: 200px;
+    }
+    
+}

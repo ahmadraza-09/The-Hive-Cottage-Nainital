@@ -14,7 +14,7 @@ const ExploreRoomsSection = () => {
       title: "FAMILY SUITE",
       description:
       "The Family Suite offers spacious and elegant accommodations designed for families. With separate living areas and modern amenities, it ensures comfort and convenience. Perfect for creating special moments with your loved ones.",
-      price: 3958,
+      price: 11000 ,
     },
     {
       id: 2,
@@ -22,7 +22,7 @@ const ExploreRoomsSection = () => {
       title: "SUPER DELUXE ROOM",
       description:
         "The Super Deluxe Room offers a perfect blend of elegance and comfort. With stylish interiors, modern amenities, and a cozy ambiance, it is designed for a luxurious and relaxing stay. Ideal for guests seeking sophistication and convenience.",
-      price: 4225,
+      price: 6000,
     },
     
   ];

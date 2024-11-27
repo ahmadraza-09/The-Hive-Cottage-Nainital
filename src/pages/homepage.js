@@ -14,27 +14,29 @@ const HomePage = () => {
     return (
         <>
             <Helmet>
-                <title>The Pearl 21 Villa - Luxury Stay in Udaipur</title>
-                <meta name="description" content="Discover The Pearl 21 Villa in Udaipur, offering a perfect blend of luxury, comfort, and elegance. Experience an unforgettable stay at our exquisite villas in the City of Lakes." />
-                <meta name="keywords" content="The Pearl 21 Villa, luxury villas in Udaipur, premium villa stay Udaipur, private villas Udaipur, elegant accommodations Udaipur, boutique villa experience, vacation villas Udaipur, luxury retreat, The Pearl Villa Udaipur" />
-                <link rel="canonical" href="https://thepearl21villa.com/" />
+                <title>The Hive Cottage - Luxury Stay in Nainital</title>
+                <meta name="description" content="Experience the charm of The Hive Cottage, a luxury heritage stay in Nainital. Nestled in serene surroundings, our boutique property offers breathtaking views, exceptional hospitality, and an unforgettable retreat in the hills." />
+                <meta name="keywords" content="The Hive Cottage Nainital, luxury stay Nainital, heritage cottage Nainital, boutique hotel Nainital, best cottages in Nainital, Nainital hill station stay, premium accommodations Nainital, peaceful retreat Nainital" />
+                <link rel="canonical" href="https://www.thehivecottagenainital.com/" />
 
+                {/* JSON-LD structured data */}
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "Hotel",
-                        "name": "The Pearl 21 Villa - Luxury Stay in Udaipur",
-                        "telephone": "+91-9971834141",
-                        "url": "https://thepearl21villa.com"
+                        "name": "The Hive Cottage Nainital",
+                        "telephone": "+91-8743000181",
+                        "url": "https://www.thehivecottagenainital.com/"
                     })}
                 </script>
             </Helmet>
+
             <TopBanner />
             <Navbar />
-            <HeroSection/>
-            <IntroductionSection/>
-            <ExploreRoomsSection/>
-            <Services/>
+            <HeroSection />
+            <IntroductionSection />
+            <ExploreRoomsSection />
+            <Services />
             <Footer />
             <SocialMediaFixed />
         </>
