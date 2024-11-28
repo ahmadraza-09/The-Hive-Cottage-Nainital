@@ -107,10 +107,6 @@ const Services = () => {
             <img src={Toothbrush} alt="" />
             <span>Toothbrush/Razor on Request</span>
           </div>
-          <div className="service-box swipe">
-            <img src={AirConditioner} alt="" />
-            <span>Air Conditioner</span>
-          </div>
           
         </div>
       </div>

@@ -138,10 +138,7 @@ const FamilySuite = () => {
             <img src={Toothbrush} alt="" />
             <h2>Toothbrush On Request</h2>
           </div>
-          <div className="why-choose-contents-box">
-            <img src={AirConditioner} alt="" />
-            <h2>Air Conditioner</h2>
-          </div>
+          
         </div>
       </div>
       <div className="premium-room-comp-content room-card-price-left ">

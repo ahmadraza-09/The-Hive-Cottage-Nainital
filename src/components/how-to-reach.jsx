@@ -14,7 +14,7 @@ const HowToReach = () => {
       <p>Delhi airport is just 300 kms. away and Pantnagar airport is at a distance of 90 kms.
       </p>
       <br />
-      <img src={HowToReachImg} alt="" />
+      {/* <img src={HowToReachImg} alt="" /> */}
       <br />
       <h3>Google Location Map</h3>
       <br />
